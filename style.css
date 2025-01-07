@@ -14,17 +14,17 @@
   /* Top Bar */
   .top-bar {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;  /* Distribute the items across the bar */
     align-items: center;
-    background-color: #f4f4f4;
     padding: 10px 20px;
   }
   
   .top-bar .contact-link {
-    margin-left: 20px;
     text-decoration: none;
     color: #333;
     font-size: 14px;
+    display: flex;
+    align-items: right;
   }
   
   .top-bar .contact-link img {
@@ -32,14 +32,13 @@
     margin-right: 5px;
   }
   
-  /* Navigation */
   nav {
-    position: sticky;  /* Makes the navbar stick to the top */
+    position: sticky;
     top: 0;
-    z-index: 1000;  /* Ensures it stays on top of other elements */
+    z-index: 1000;
     background-color: #e6f7ff;
     padding: 10px 0;
-    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);  /* Adds slight shadow for better visibility */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
   }
   
   nav ul {
@@ -62,7 +61,7 @@
   
   nav ul li a:hover,
   nav ul li a.active {
-    color: #004080;  /* Change color when hovering or active */
+    color: #004080;
   }
   
   /* Hero Section */
@@ -94,10 +93,14 @@
   }
   
   .home-right-icons {
-   position: absolute;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+    width: 80%;
   }
   
   .home-right-icons img {
@@ -105,22 +108,16 @@
     transition: transform 0.3s ease;
   }
   
+  .home-right-icons-left,
+  .home-right-icons-right {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
   .home-icons img:hover {
     transform: scale(1.1);
   }
-
-  .home-right-icons-left {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-  }
-  
-  .home-right-icons-right {
-    position: absolute;
-    bottom: 20px;
-    right: 20px;
-  }
-  
   .home-left h1 {
     font-size: 3rem;
     color: #004080;
