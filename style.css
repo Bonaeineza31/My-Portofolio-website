@@ -75,51 +75,48 @@ nav ul li a:hover {
   }
   
   .home-left {
-    width: 50%;
+    width: 70%;
     text-align: left;
     padding-left: 40px;
   }
   
   .home-right {
-    width: 50%;
+    width: 70%;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    position: relative;
+    padding-right: 20px;
   }
   
   .home-right img {
-    width: 90px;
-    max-width: 400px;
+    width: 350px; /* Make the image larger */
+    max-width: 700px;
+    margin-bottom: 20px; /* Space between the image and icons */
 
   }
   
   .home-right-icons {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 20px;
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    transform: translateY(-50%);
-   }
-  
-  .home-right-icons img {
-    width: 100px;
-    transition: transform 0.3s ease;
+    align-items: center; /* Center the icons */
   }
   
   .home-right-icons-left,
   .home-right-icons-right {
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    gap: 30px;
+    align-items: center;
   }
   
-  .home-icons img:hover {
+  .home-right-icons-left img,
+  .home-right-icons-right img {
+    width: 50px; /* Smaller icons */
+    transition: transform 0.3s ease;
+  }
+  
+  .home-right-icons img:hover {
     transform: scale(1.1);
   }
+  
   .home-left h1 {
     font-size: 3rem;
     color: #004080;
@@ -138,6 +135,7 @@ nav ul li a:hover {
   .home-left p {
     margin: 20px 0;
     font-size: 1.1rem;
+    justify-items: normal;
     color: #555;
   }
   
