@@ -1,6 +1,6 @@
 /* General Styles */
 * {
-    margin: 0;
+    margin: 10;
     padding: 0;
     box-sizing: border-box;
   }
@@ -171,7 +171,7 @@ nav ul li a:hover {
  /*  new About Section */
  #about {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: flex-start;
   padding: 50px 20px;
   background-color: #f9f9f9;
@@ -228,7 +228,7 @@ nav ul li a:hover {
  }
  .about-right {
   width: 48%;
-  padding-left: 20px;
+  padding-left: 300px;
 }
 
 .about-right h3 {
@@ -265,6 +265,7 @@ nav ul li a:hover {
 
  .social-links img {
   width: 40px;
+  justify-content: space-evenly;
   transition: transform 0.3s ease;
  }
 
