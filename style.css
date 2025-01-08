@@ -255,7 +255,7 @@ nav ul li a:hover {
  }
 
  .social-links {
-  margin-top: 10px;
+  margin-top: 0px;
  }
 
  .social-links a {
@@ -265,7 +265,8 @@ nav ul li a:hover {
 
  .social-links img {
   width: 40px;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  margin-left: 10px;
   transition: transform 0.3s ease;
  }
 
@@ -319,19 +320,6 @@ nav ul li a:hover {
     margin-bottom: 15px;
   }
   
-  .service-cards .card button {
-    background-color: #0073e6;
-    color: #fff;
-    border: none;
-    padding: 8px 20px;
-    font-size: 1rem;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  .service-cards .card button:hover {
-    background-color: #005bb5;
-  }
   
   /* Contact Section */
   #contact {
