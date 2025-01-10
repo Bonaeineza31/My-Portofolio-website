@@ -392,6 +392,9 @@ nav ul li a:hover {
  @media (max-width: 600px) {
     body {
         font-size: 13px;
+        width: 60%;
+        display: table-cell;
+        padding: .4em;
     }
  }
 
@@ -408,6 +411,9 @@ nav ul li a:hover {
  @media (max-width: 320px) {
   body {
       font-size: 12px;
+      width: 40%;
+      display: table-cell;
+      padding: .1em;
   }
  } 
 
