@@ -398,9 +398,9 @@ nav ul li a:hover {
  @media (max-width: 420px) {
   body {
       font-size: 14px;
-      width: 20%;
+      width: 60%;
       display: table-cell;
-      padding: .5em;
+      padding: .2em;
   }
   
  }
