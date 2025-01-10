@@ -389,11 +389,25 @@ nav ul li a:hover {
     }
  }
 
- @media (max-width: 480px) {
+ @media (max-width: 600px) {
     body {
-        font-size: 12px;
+        font-size: 13px;
     }
  }
+
+ @media (max-width: 420px) {
+  body {
+      font-size: 12px;
+  }
+ }
+
+ @media (max-width: 320px) {
+  body {
+      font-size: 12px;
+  }
+ } 
+
+
  @keyframes slideFromBottom {
   0% {
       transform: translateY(50px);
