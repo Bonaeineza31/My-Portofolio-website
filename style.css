@@ -300,7 +300,19 @@ nav ul li a:hover {
     display: flex;
     justify-content: center;
     gap: 30px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 50px 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
   }
+  .service-cards .card:hover{
+    background: lightskyblue;
+ }
+
+ .service-cards .card .box{
+    transition: all 0.3s ease;
+ }
   
   .service-cards .card {
     background-color: #fff;
@@ -309,7 +321,17 @@ nav ul li a:hover {
     border-radius: 5px;
     width: 250px;
   }
-  
+  .service-cards  .card:hover .box{
+    transform: scale(1.05);
+ }
+ .service-cards  .card i{
+    font-size: 50px;
+    color: #0073e6;
+    transition: color 0.3s ease;
+ }
+ .service-cards .card:hover i{
+    color: #fff;
+  } 
   .service-cards .card h3 {
     font-size: 1.5rem;
     color: #004080;
