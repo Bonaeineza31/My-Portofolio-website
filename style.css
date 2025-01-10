@@ -398,7 +398,11 @@ nav ul li a:hover {
  @media (max-width: 420px) {
   body {
       font-size: 12px;
+      width:50%;
+      display:table-cell;
+      padding: .5em;
   }
+  
  }
 
  @media (max-width: 320px) {
