@@ -406,7 +406,10 @@ nav ul li a:hover {
  }
 
   h1,h2,h3,p {
-  animation: slideFromBottom 1s ease-out;
+  animation: slideFromBottom 2s ease-out;
+ }
+ h3,p {
+  animation: slideFromBottom 3s ease-out;
  }
  @keyframes slideInLeft {
   0% {
@@ -420,5 +423,5 @@ nav ul li a:hover {
  }
 
  img {
-  animation: slideInLeft 1s ease-out;
+  animation: slideFromBottom 3s ease-out;
  }
