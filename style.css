@@ -29,43 +29,33 @@
     width: 16px;
     margin-right: 5px;
   }
-  
+
   nav ul {
     list-style-type: none;
     margin: 0;
     position: fixed;
     z-index: 1000;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: flex;
-    justify-content: space-evenly;
-}
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Ensures visibility */
 }
 
 nav ul li a {
     text-decoration: none;
     color: #0073e6;
-    font-size: 16px;
-    padding: 10px 15px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
 }
 
 nav ul li a:hover {
-    background-color: #555;
+    background-color: #87cefa; /* Lighter hover effect */
+    color:black; /* Contrasting text */
 }
-
-  nav ul li a:hover {
-    background-color: skyblue;
-  }
   
-  nav ul li a.active {
-    color: #004080;
-  }
   /* Hero Section */
   .home {
     display: flex;
@@ -408,13 +398,14 @@ nav ul li a:hover {
   @media (max-width: 768px) {
     body {
         font-size: 14px;
+        width: 100%;
     }
  }
 
  @media (max-width: 600px) {
     body {
         font-size: 13px;
-        width: 60%;
+        width: 100%;
         display: table-cell;
         padding: .4em;
     }
@@ -423,7 +414,7 @@ nav ul li a:hover {
  @media (max-width: 420px) {
   body {
       font-size: 14px;
-      width: 60%;
+      width: 100%;
       display: table-cell;
       padding: .2em;
   }
@@ -433,7 +424,7 @@ nav ul li a:hover {
  @media (max-width: 320px) {
   body {
       font-size: 12px;
-      width: 40%;
+      width: 100%;
       display: table-cell;
       padding: .1em;
   }
