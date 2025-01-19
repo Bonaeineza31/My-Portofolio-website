@@ -395,14 +395,15 @@ nav ul li a:hover {
     color: #fff;
     font-size: 14px;
   }
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     body {
         font-size: 14px;
         width: 100%;
+        display: table-cell;
     }
  }
 
- @media (max-width: 600px) {
+ @media screen and (max-width: 600px) {
     body {
         font-size: 13px;
         width: 100%;
@@ -411,7 +412,7 @@ nav ul li a:hover {
     }
  }
 
- @media (max-width: 420px) {
+ @media screen and (max-width: 420px) {
   body {
       font-size: 14px;
       width: 100%;
@@ -421,7 +422,7 @@ nav ul li a:hover {
   
  }
 
- @media (max-width: 320px) {
+ @media screen and (max-width: 320px) {
   body {
       font-size: 12px;
       width: 100%;
