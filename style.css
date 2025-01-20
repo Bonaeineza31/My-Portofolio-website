@@ -675,7 +675,7 @@
 }
 
 .project-btn:hover {
-  background: var(--accent-color);
+  background: red;
 }
 
 .project-info {
